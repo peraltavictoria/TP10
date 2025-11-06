@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameZone | Tu mundo gamer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body class="bg-dark text-white">
+
+<!-- 🎮 NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-black shadow">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-danger" href="index.html">🎮 GameZone</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- 🖼 CARRUSEL -->
+<div id="carouselJuegos" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/accion.webp" class="d-block w-100" alt="Acción">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Explora mundos épicos</h3>
+        <p>Desde shooters hasta RPGs, viví la aventura gamer definitiva.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/aventura.jpg" class="d-block w-100" alt="Aventura">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Juegos en tendencia</h3>
+        <p>Descubrí los títulos más jugados del momento.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/competitivos.webp" class="d-block w-100" alt="Competitivo">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Competí como un profesional</h3>
+        <p>Participá en torneos y ganá premios increíbles.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselJuegos" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselJuegos" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<!-- 🕹 CARDS -->
+<section class="container my-5">
+  <div class="row text-center">
+    <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+      <div class="card bg-secondary text-white border-0 shadow h-100">
+        <img src="img/BattleZone.png" class="card-img-top" alt="Shooter">
+        <div class="card-body">
+          <h5 class="card-title">BattleZone</h5>
+          <p class="card-text">Combate multijugador con gráficos de nueva generación y adrenalina pura.</p>
+          <a href="#" class="btn btn-danger">Ver más</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+      <div class="card bg-secondary text-white border-0 shadow h-100">
+        <img src="img\Legends of Eternia.jpg" class="card-img-top" alt="RPG">
+        <div class="card-body">
+          <h5 class="card-title">Legends of Eternia</h5>
+          <p class="card-text">Un RPG fantástico con historia profunda y libertad total de exploración.</p>
+          <a href="#" class="btn btn-danger">Ver más</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+      <div class="card bg-secondary text-white border-0 shadow h-100">
+        <img src="img/SpeedMaster.jpg" class="card-img-top" alt="Carreras">
+        <div class="card-body">
+          <h5 class="card-title">SpeedMaster</h5>
+          <p class="card-text">Conducí autos de ensueño en pistas legendarias alrededor del mundo.</p>
+          <a href="#" class="btn btn-danger">Ver más</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ⚙️ FOOTER -->
+<footer class="bg-black text-center p-4 mt-5 border-top border-secondary">
+  <p class="mb-0">&copy; 2025 GameZone | Todos los derechos reservados</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
